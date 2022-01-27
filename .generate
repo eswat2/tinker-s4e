@@ -1,5 +1,5 @@
 #!/bin/bash
-COMPONENT=funnel-s4e
+COMPONENT=tinker-s4e
 INPUT=./src/styles/input.pcss
 OUTPUT=./src/styles/app.css
 
