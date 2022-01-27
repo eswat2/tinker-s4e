@@ -16,7 +16,7 @@
     "format": "prettier --write './src/**/*.{css,pcss,js,svelte}'",
     "spell": "cspell './**/*.js'",
     "predeploy": "yarn version --patch; yarn build",
-    "deploy": "cd dist; ln -s ../.now .vercel; vc --prod",
+    "deploy": "cd dist; ln -s ../.vercel; vc --prod",
     "open": "open https://tinker-s4e.vercel.app"
   },
   "devDependencies": {
