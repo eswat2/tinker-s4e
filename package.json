@@ -20,7 +20,7 @@
     "open": "open https://tinker-s4e.vercel.app"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "1.0.0-next.40",
+    "@sveltejs/vite-plugin-svelte": "1.0.0-next.41",
     "autoprefixer": "10.4.4",
     "concurrently": "7.1.0",
     "d3-interpolate": "3.0.1",
