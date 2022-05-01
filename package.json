@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "1.0.0-next.42",
-    "autoprefixer": "10.4.5",
+    "autoprefixer": "10.4.6",
     "concurrently": "7.1.0",
     "d3-interpolate": "3.0.1",
     "postcss": "8.4.13",
