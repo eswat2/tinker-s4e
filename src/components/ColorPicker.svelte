@@ -7,6 +7,7 @@
   {#each colorKeys as key, i}
     <div
       aria-label={key}
+      aria-checked={$pick === key}
       role="radio"
       title={key}
       on:click={() => actions.updatePick(key)}
