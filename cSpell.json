@@ -12,6 +12,7 @@
     "gsap",
     "pcss",
     "predeploy",
+    "proto",
     "sgtoilet",
     "sirv",
     "sveltejs",
