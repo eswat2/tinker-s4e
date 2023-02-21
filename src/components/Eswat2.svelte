@@ -9,6 +9,7 @@
   href={url}
   class="text-clrs-gray hover:text-clrs-navy absolute top-8 right-8"
   aria-label={who}
+  target="blank"
   title={who}
 >
   <Fingerprint />
