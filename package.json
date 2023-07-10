@@ -13,25 +13,25 @@
     "build": "yarn twx; yarn format; vite build",
     "serve": "vite preview",
     "test": "echo --skip...",
-    "cc": "prettier --check './src/**/*.{css,pcss,js,svelte}'",
-    "format": "prettier --write './src/**/*.{css,pcss,js,svelte}'",
+    "cc": "prettier --check './src/**/*.{css,pcss,js}'",
+    "format": "prettier --write './src/**/*.{css,pcss,js}'",
     "spell": "cspell './**/*.js'",
     "predeploy": "yarn version --patch; yarn build",
     "deploy": "cd dist; ln -s ../.vercel; vc --prod",
     "open": "open https://tinker-s4e.vercel.app"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "2.4.1",
+    "@sveltejs/vite-plugin-svelte": "2.4.2",
     "autoprefixer": "10.4.14",
     "concurrently": "8.2.0",
     "d3-interpolate": "3.0.1",
-    "postcss": "8.4.24",
-    "prettier": "2.8.8",
+    "postcss": "8.4.25",
+    "prettier": "3.0.0",
     "prettier-plugin-svelte": "2.10.1",
     "prettier-plugin-tailwindcss": "0.3.0",
-    "proto-tailwindcss-clrs": "0.0.253",
-    "svelte": "3.59.1",
+    "proto-tailwindcss-clrs": "0.0.254",
+    "svelte": "4.0.5",
     "tailwindcss": "3.3.2",
-    "vite": "4.3.9"
+    "vite": "4.4.2"
   }
 }
