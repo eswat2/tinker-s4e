@@ -1,7 +1,7 @@
 <script>
-  export let hex = "currentColor"
-  export let selected = false
-  export let size = 24
+  export let hex = 'currentColor';
+  export let selected = false;
+  export let size = 24;
 </script>
 
 <svg width={size} height={size} viewBox="0 0 24 24">

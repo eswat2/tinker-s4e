@@ -1,8 +1,8 @@
 <script>
-  import Fingerprint from "../icons/Fingerprint.svelte"
+  import Fingerprint from '../icons/Fingerprint.svelte';
 
-  let url = "https://eswat2.dev"
-  let who = "eswat2"
+  let url = 'https://eswat2.dev';
+  let who = 'eswat2';
 </script>
 
 <a

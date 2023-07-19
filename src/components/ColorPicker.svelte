@@ -1,6 +1,6 @@
 <script>
-  import Radio from "../icons/Radio.svelte"
-  import { colorKeys, colorFor, pick, actions } from "../utils"
+  import Radio from '../icons/Radio.svelte';
+  import { colorKeys, colorFor, pick, actions } from '../utils';
 </script>
 
 <div class="flex flex-wrap" role="radiogroup">

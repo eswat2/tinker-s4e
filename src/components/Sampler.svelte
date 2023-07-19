@@ -1,8 +1,8 @@
 <script>
-  import ChevronDoubleLeft from "../icons/ChevronDoubleLeft.svelte"
-  import Close from "../icons/Close.svelte"
-  import Refresh from "../icons/Refresh.svelte"
-  import { actions, count } from "../utils"
+  import ChevronDoubleLeft from '../icons/ChevronDoubleLeft.svelte';
+  import Close from '../icons/Close.svelte';
+  import Refresh from '../icons/Refresh.svelte';
+  import { actions, count } from '../utils';
 </script>
 
 <div class="mb-10px mt-3 flex items-center">

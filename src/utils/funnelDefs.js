@@ -4,9 +4,9 @@ const funnelDefs = [
   { id: 3, height: 312, width: 100, x: 230, y: 54, drop: 20 },
   { id: 4, height: 268, width: 100, x: 340, y: 76, drop: 20 },
   { id: 5, height: 224, width: 100, x: 450, y: 98, drop: 20 },
-]
+];
 
-const sample = funnelDefs.map(() => 0)
+const sample = funnelDefs.map(() => 0);
 
-export { funnelDefs, sample }
-export default funnelDefs
+export { funnelDefs, sample };
+export default funnelDefs;

@@ -1,6 +1,6 @@
 <script>
-  import TwLabel from "./TwLabel.svelte"
-  import { count, pick, values } from "../utils"
+  import TwLabel from './TwLabel.svelte';
+  import { count, pick, values } from '../utils';
 </script>
 
 <div class="flex">
@@ -11,7 +11,7 @@
     </div>
     <div class="mt-5px flex">
       <span class="mr-10px font-bold">sample:</span>
-      <span class="text-clrs-slate4 italic">{$count > 0 ? $values : "..."}</span
+      <span class="text-clrs-slate4 italic">{$count > 0 ? $values : '...'}</span
       >
     </div>
   </div>
