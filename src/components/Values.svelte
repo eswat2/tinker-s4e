@@ -7,11 +7,11 @@
   <div class="flex flex-col">
     <div class="flex">
       <span class="mr-10px font-bold">color:</span>
-      <span class="text-clrs-slate4 italic">{$pick}</span>
+      <span class="italic text-clrs-slate4">{$pick}</span>
     </div>
     <div class="mt-5px flex">
       <span class="mr-10px font-bold">sample:</span>
-      <span class="text-clrs-slate4 italic">{$count > 0 ? $values : '...'}</span
+      <span class="italic text-clrs-slate4">{$count > 0 ? $values : '...'}</span
       >
     </div>
   </div>

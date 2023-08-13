@@ -7,7 +7,7 @@
 
 <a
   href={url}
-  class="text-clrs-gray hover:text-clrs-navy absolute right-8 top-8"
+  class="absolute right-8 top-8 text-clrs-gray hover:text-clrs-navy"
   aria-label={who}
   target="blank"
   title={who}
