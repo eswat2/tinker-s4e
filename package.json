@@ -27,7 +27,7 @@
     "d3-interpolate": "3.0.1",
     "postcss": "8.4.39",
     "prettier": "3.3.3",
-    "prettier-plugin-svelte": "3.2.5",
+    "prettier-plugin-svelte": "3.2.6",
     "prettier-plugin-tailwindcss": "0.6.5",
     "proto-tailwindcss-clrs": "0.0.338",
     "svelte": "4.2.18",
