@@ -10,7 +10,7 @@
     class="ds1-button data-button bg-clrs-blue"
     aria-label="Refresh"
     title="Refresh"
-    on:click={() => actions.refresh()}
+    onclick={() => actions.refresh()}
   >
     <Refresh />
   </button>
@@ -18,7 +18,7 @@
     class="ds1-button data-button bg-clrs-red"
     aria-label="Reset"
     title="Reset"
-    on:click={() => actions.reset()}
+    onclick={() => actions.reset()}
   >
     <Close />
   </button>

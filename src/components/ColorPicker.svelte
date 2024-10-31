@@ -11,8 +11,8 @@
       role="radio"
       tabindex="0"
       title={key}
-      on:click={() => actions.updatePick(key)}
-      on:keydown={e => e.key === 'Enter' && actions.updatePick(key)}
+      onclick={() => actions.updatePick(key)}
+      onkeydown={e => e.key === 'Enter' && actions.updatePick(key)}
     >
       <Radio hex={colorFor(key)} selected={$pick === key} />
     </div>
