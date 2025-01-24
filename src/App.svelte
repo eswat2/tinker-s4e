@@ -11,6 +11,6 @@
   <Eswat2 />
   <Sampler />
   <ColorPicker />
-  <hr class="ml-0 mr-0" />
+  <hr class="mr-0 ml-0" />
   <Values />
 </main>

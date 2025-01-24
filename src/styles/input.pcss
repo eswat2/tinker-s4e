@@ -1,16 +1,19 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer theme, base, components, utilities;
+
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+@config '../../tailwind.config.cjs';
 
 @layer components {
   .ds1-main {
-    @apply flex flex-col p-4 font-sans text-clrs-navy antialiased;
+    @apply text-clrs-navy flex flex-col p-4 font-sans antialiased;
   }
   .ds1-button {
-    @apply flex items-center border-solid border-clrs-slate text-clrs-white active:bg-clrs-gray active:text-clrs-navy;
+    @apply border-clrs-slate text-clrs-white active:bg-clrs-gray active:text-clrs-navy flex items-center border-solid;
   }
   .funnel {
-    @apply border-solid border-clrs-gray bg-clrs-silver stroke-1;
+    @apply border-clrs-gray bg-clrs-silver border-solid stroke-1;
   }
 }
 
