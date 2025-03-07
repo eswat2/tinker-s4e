@@ -1,4 +1,4 @@
-/*! tailwindcss v4.0.9 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.0.11 | MIT License | https://tailwindcss.com */
 @layer theme, base, components, utilities;
 @layer theme {
   :root,
@@ -89,9 +89,6 @@
   .bg-clrs-silver {
     background-color: var(--clrs-silver, #dddddd);
   }
-  .stroke-1 {
-    stroke-width: 1;
-  }
   .p-4 {
     padding: calc(var(--spacing) * 4);
   }
@@ -140,13 +137,6 @@
   }
   .italic {
     font-style: italic;
-  }
-  .antialiased {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  .\[localhost\:5000\] {
-    localhost: 5000;
   }
   .hover\:text-clrs-navy {
     &:hover {
