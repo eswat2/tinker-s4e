@@ -1,16 +1,6 @@
-/*! tailwindcss v4.1.1 | MIT License | https://tailwindcss.com */
+/*! tailwindcss v4.1.2 | MIT License | https://tailwindcss.com */
+@layer properties;
 @layer theme, base, components, utilities;
-@supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or
-  ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
-  @layer base {
-    *,
-    ::before,
-    ::after,
-    ::backdrop {
-      --tw-font-weight: initial;
-    }
-  }
-}
 @layer theme {
   :root,
   :host {
@@ -218,4 +208,15 @@
 @property --tw-font-weight {
   syntax: '*';
   inherits: false;
+}
+@layer properties {
+  @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or
+    ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
+    *,
+    ::before,
+    ::after,
+    ::backdrop {
+      --tw-font-weight: initial;
+    }
+  }
 }
