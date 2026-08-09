@@ -5,6 +5,3 @@ packages:
 allowBuilds:
   'esbuild': true
   'proto-tailwindcss-clrs': true
-
-minimumReleaseAgeExclude:
-  - '@sveltejs/vite-plugin-svelte@7.3.0'
