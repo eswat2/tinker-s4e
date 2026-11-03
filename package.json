@@ -31,7 +31,7 @@
     "autoprefixer": "10.6.2",
     "bumpp": "12.3.0",
     "concurrently": "10.0.6",
-    "d3-interpolate": "3.0.1",
+    "d3-interpolate": "3.0.2",
     "only-allow": "1.2.2",
     "postcss": "8.5.32",
     "prettier": "3.9.10",
@@ -39,7 +39,7 @@
     "prettier-plugin-tailwindcss": "0.8.1",
     "proto-tailwindcss-clrs": "0.0.574",
     "svelte": "5.57.3",
-    "tailwindcss": "4.3.3",
+    "tailwindcss": "4.3.4",
     "vite": "8.3.5",
     "yoctocolors": "2.2.0"
   },
